@@ -6,8 +6,13 @@ from flask import Flask, jsonify, request, send_from_directory, session
 from werkzeug.security import check_password_hash, generate_password_hash
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HERE = os.path.dirname(os.path.abspath(__file__))
 FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
-SEED_DIR = os.path.join(BASE_DIR, "data")  # data shipped with the repo (used to seed an empty disk)
+SEED_DIR = os.path.join(BASE_DIR, "data")
+if not os.path.isdir(FRONTEND_DIR) and os.path.exists(os.path.join(HERE, "index.html")):
+    # "flat" layout: app.py, index.html and library_data.json all sit in one folder
+    FRONTEND_DIR = HERE
+    SEED_DIR = os.path.join(HERE, "data")  # data shipped with the repo (used to seed an empty disk)
 DATA_DIR = os.environ.get("LIBRA_DATA_DIR") or SEED_DIR  # on Render: point this at the persistent disk
 os.makedirs(DATA_DIR, exist_ok=True)
 BACKUP_DIR = os.path.join(DATA_DIR, "backups")
@@ -17,6 +22,8 @@ USERS_FILE = os.path.join(DATA_DIR, "users.json")
 SECRET_FILE = os.path.join(DATA_DIR, ".secret_key")
 os.makedirs(BACKUP_DIR, exist_ok=True)
 _seed = os.path.join(SEED_DIR, "library_data.json")
+if not os.path.exists(_seed) and os.path.exists(os.path.join(HERE, "library_data.json")):
+    _seed = os.path.join(HERE, "library_data.json")
 if not os.path.exists(DATA_FILE) and os.path.exists(_seed) and os.path.abspath(_seed) != os.path.abspath(DATA_FILE):
     shutil.copy2(_seed, DATA_FILE)  # first run on an empty persistent disk
 
@@ -237,7 +244,11 @@ def body():
 
 @app.route("/")
 def serve_frontend():
-    return send_from_directory(FRONTEND_DIR, "index.html")
+    for d in (FRONTEND_DIR, HERE, os.getcwd(), os.path.join(os.getcwd(), "frontend"), os.path.join(HERE, "frontend")):
+        if os.path.exists(os.path.join(d, "index.html")):
+            return send_from_directory(d, "index.html")
+    return ("index.html was not found. Upload index.html to the same GitHub folder as app.py "
+            "(or into a 'frontend' folder). Looked in: " + ", ".join([FRONTEND_DIR, HERE, os.getcwd()]), 500)
 
 
 # --------------------------------------------------------------------- auth
