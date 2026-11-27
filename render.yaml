@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: libra-library
+    runtime: python
+    plan: starter            # persistent disks need a paid plan
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --chdir backend --workers 1 --threads 4 --bind 0.0.0.0:$PORT app:app
+    disk:
+      name: libra-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: LIBRA_DATA_DIR
+        value: /var/data
+      - key: LIBRA_SECURE_COOKIES
+        value: "1"
+      - key: LIBRA_SECRET_KEY
+        generateValue: true
+      - key: LIBRA_ADMIN_PASSWORD
+        sync: false          # you enter this in the Render dashboard
+      - key: LIBRA_AUTO_LOCATE
+        value: "1"

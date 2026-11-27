@@ -1,0 +1,1104 @@
+{
+    "booksData": [
+        {
+            "author": "khaled hosseini",
+            "category": "Novels",
+            "cover": "",
+            "id": "B207",
+            "pages": 280,
+            "qty": 3,
+            "title": "the thousand splendid suns"
+        },
+        {
+            "author": "collen hover",
+            "category": "Novels",
+            "cover": "",
+            "id": "B206",
+            "pages": 280,
+            "qty": 2,
+            "title": "verity"
+        },
+        {
+            "author": "Khaled Hosseini",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781594631931-M.jpg?default=false",
+            "id": "B101",
+            "pages": 371,
+            "qty": 3,
+            "title": "The Kite Runner"
+        },
+        {
+            "author": "Paulo Coelho",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780062315007-M.jpg?default=false",
+            "id": "B102",
+            "pages": 208,
+            "qty": 5,
+            "title": "The Alchemist"
+        },
+        {
+            "author": "Haruki Murakami",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781400079278-M.jpg?default=false",
+            "id": "B103",
+            "pages": 467,
+            "qty": 3,
+            "title": "Kafka on the Shore"
+        },
+        {
+            "author": "Kazuo Ishiguro",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780593318171-M.jpg?default=false",
+            "id": "B104",
+            "pages": 303,
+            "qty": 4,
+            "title": "Klara and the Sun"
+        },
+        {
+            "author": "William Shakespeare",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780743482769-M.jpg?default=false",
+            "id": "B105",
+            "pages": 256,
+            "qty": 6,
+            "title": "King Lear"
+        },
+        {
+            "author": "Rudyard Kipling",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780141441757-M.jpg?default=false",
+            "id": "B106",
+            "pages": 366,
+            "qty": 3,
+            "title": "Kim"
+        },
+        {
+            "author": "Harper Lee",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780060935467-M.jpg?default=false",
+            "id": "B107",
+            "pages": 336,
+            "qty": 5,
+            "title": "To Kill a Mockingbird"
+        },
+        {
+            "author": "Jane Austen",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg?default=false",
+            "id": "B108",
+            "pages": 432,
+            "qty": 6,
+            "title": "Pride and Prejudice"
+        },
+        {
+            "author": "George Orwell",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg?default=false",
+            "id": "B109",
+            "pages": 328,
+            "qty": 7,
+            "title": "1984"
+        },
+        {
+            "author": "F. Scott Fitzgerald",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg?default=false",
+            "id": "B110",
+            "pages": 180,
+            "qty": 5,
+            "title": "The Great Gatsby"
+        },
+        {
+            "author": "J.K. Rowling",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780590353427-M.jpg?default=false",
+            "id": "B111",
+            "pages": 309,
+            "qty": 8,
+            "title": "Harry Potter and the Sorcerer's Stone"
+        },
+        {
+            "author": "J.R.R. Tolkien",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780547928227-M.jpg?default=false",
+            "id": "B112",
+            "pages": 310,
+            "qty": 4,
+            "title": "The Hobbit"
+        },
+        {
+            "author": "Khaled Hosseini",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781594489501-M.jpg?default=false",
+            "id": "B113",
+            "pages": 384,
+            "qty": 4,
+            "title": "A Thousand Splendid Suns"
+        },
+        {
+            "author": "Markus Zusak",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780375842207-M.jpg?default=false",
+            "id": "B114",
+            "pages": 552,
+            "qty": 3,
+            "title": "The Book Thief"
+        },
+        {
+            "author": "Dan Brown",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780307474278-M.jpg?default=false",
+            "id": "B115",
+            "pages": 489,
+            "qty": 5,
+            "title": "The Da Vinci Code"
+        },
+        {
+            "author": "Gillian Flynn",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780307588371-M.jpg?default=false",
+            "id": "B116",
+            "pages": 432,
+            "qty": 3,
+            "title": "Gone Girl"
+        },
+        {
+            "author": "John Green",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780142424179-M.jpg?default=false",
+            "id": "B117",
+            "pages": 313,
+            "qty": 6,
+            "title": "The Fault in Our Stars"
+        },
+        {
+            "author": "Alex Michaelides",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781250301697-M.jpg?default=false",
+            "id": "B118",
+            "pages": 336,
+            "qty": 4,
+            "title": "The Silent Patient"
+        },
+        {
+            "author": "Frank Herbert",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780441172719-M.jpg?default=false",
+            "id": "B119",
+            "pages": 688,
+            "qty": 3,
+            "title": "Dune"
+        },
+        {
+            "author": "George Orwell",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780451526342-M.jpg?default=false",
+            "id": "B120",
+            "pages": 112,
+            "qty": 7,
+            "title": "Animal Farm"
+        },
+        {
+            "author": "J.D. Salinger",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780316769488-M.jpg?default=false",
+            "id": "B121",
+            "pages": 277,
+            "qty": 4,
+            "title": "The Catcher in the Rye"
+        },
+        {
+            "author": "Fyodor Dostoevsky",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780143058144-M.jpg?default=false",
+            "id": "B122",
+            "pages": 671,
+            "qty": 2,
+            "title": "Crime and Punishment"
+        },
+        {
+            "author": "Charlotte Bronte",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780141441146-M.jpg?default=false",
+            "id": "B123",
+            "pages": 532,
+            "qty": 4,
+            "title": "Jane Eyre"
+        },
+        {
+            "author": "Emily Bronte",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780141439556-M.jpg?default=false",
+            "id": "B124",
+            "pages": 416,
+            "qty": 3,
+            "title": "Wuthering Heights"
+        },
+        {
+            "author": "Yann Martel",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780156027328-M.jpg?default=false",
+            "id": "B125",
+            "pages": 354,
+            "qty": 5,
+            "title": "Life of Pi"
+        },
+        {
+            "author": "Arundhati Roy",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780812979657-M.jpg?default=false",
+            "id": "B126",
+            "pages": 340,
+            "qty": 4,
+            "title": "The God of Small Things"
+        },
+        {
+            "author": "Salman Rushdie",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780812976533-M.jpg?default=false",
+            "id": "B127",
+            "pages": 647,
+            "qty": 3,
+            "title": "Midnight's Children"
+        },
+        {
+            "author": "Aravind Adiga",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781416562603-M.jpg?default=false",
+            "id": "B128",
+            "pages": 321,
+            "qty": 5,
+            "title": "The White Tiger"
+        },
+        {
+            "author": "Chetan Bhagat",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9788129135490-M.jpg?default=false",
+            "id": "B129",
+            "pages": 270,
+            "qty": 6,
+            "title": "Five Point Someone"
+        },
+        {
+            "author": "R.K. Narayan",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780143039648-M.jpg?default=false",
+            "id": "B130",
+            "pages": 220,
+            "qty": 4,
+            "title": "The Guide"
+        },
+        {
+            "author": "R.K. Narayan",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780143039655-M.jpg?default=false",
+            "id": "B131",
+            "pages": 264,
+            "qty": 5,
+            "title": "Malgudi Days"
+        },
+        {
+            "author": "Khushwant Singh",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780143065883-M.jpg?default=false",
+            "id": "B132",
+            "pages": 192,
+            "qty": 4,
+            "title": "Train to Pakistan"
+        },
+        {
+            "author": "Chitra Banerjee Divakaruni",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781400096206-M.jpg?default=false",
+            "id": "B133",
+            "pages": 360,
+            "qty": 4,
+            "title": "The Palace of Illusions"
+        },
+        {
+            "author": "Amish Tripathi",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9789380658742-M.jpg?default=false",
+            "id": "B134",
+            "pages": 436,
+            "qty": 5,
+            "title": "The Immortals of Meluha"
+        },
+        {
+            "author": "Carlos Ruiz Zafon",
+            "category": "Novels",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780143034902-M.jpg?default=false",
+            "id": "B135",
+            "pages": 487,
+            "qty": 3,
+            "title": "The Shadow of the Wind"
+        },
+        {
+            "author": "Bjarne Stroustrup",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780321563842-M.jpg?default=false",
+            "id": "B136",
+            "pages": 1376,
+            "qty": 8,
+            "title": "The C++ Programming Language"
+        },
+        {
+            "author": "Thomas H. Cormen",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780262033848-M.jpg?default=false",
+            "id": "B137",
+            "pages": 1312,
+            "qty": 0,
+            "title": "Introduction to Algorithms"
+        },
+        {
+            "author": "Ronald Brachman",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781558609327-M.jpg?default=false",
+            "id": "B138",
+            "pages": 400,
+            "qty": 4,
+            "title": "Knowledge Representation and Reasoning"
+        },
+        {
+            "author": "Kelsey Hightower",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781492046530-M.jpg?default=false",
+            "id": "B139",
+            "pages": 278,
+            "qty": 5,
+            "title": "Kubernetes Up and Running"
+        },
+        {
+            "author": "Robert C. Martin",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg?default=false",
+            "id": "B140",
+            "pages": 464,
+            "qty": 6,
+            "title": "Clean Code"
+        },
+        {
+            "author": "Stuart Russell",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780136042594-M.jpg?default=false",
+            "id": "B141",
+            "pages": 1152,
+            "qty": 5,
+            "title": "Artificial Intelligence: A Modern Approach"
+        },
+        {
+            "author": "Ian Goodfellow",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780262035613-M.jpg?default=false",
+            "id": "B142",
+            "pages": 800,
+            "qty": 4,
+            "title": "Deep Learning"
+        },
+        {
+            "author": "Christopher Bishop",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780387310732-M.jpg?default=false",
+            "id": "B143",
+            "pages": 738,
+            "qty": 3,
+            "title": "Pattern Recognition and Machine Learning"
+        },
+        {
+            "author": "Aurelien Geron",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781492032649-M.jpg?default=false",
+            "id": "B144",
+            "pages": 856,
+            "qty": 6,
+            "title": "Hands-On Machine Learning"
+        },
+        {
+            "author": "Abraham Silberschatz",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781118063330-M.jpg?default=false",
+            "id": "B145",
+            "pages": 976,
+            "qty": 7,
+            "title": "Operating System Concepts"
+        },
+        {
+            "author": "James Kurose",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780133594140-M.jpg?default=false",
+            "id": "B146",
+            "pages": 864,
+            "qty": 5,
+            "title": "Computer Networking: A Top-Down Approach"
+        },
+        {
+            "author": "Abraham Silberschatz",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780073523323-M.jpg?default=false",
+            "id": "B147",
+            "pages": 1376,
+            "qty": 6,
+            "title": "Database System Concepts"
+        },
+        {
+            "author": "M. Morris Mano",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780132774208-M.jpg?default=false",
+            "id": "B148",
+            "pages": 565,
+            "qty": 8,
+            "title": "Digital Design"
+        },
+        {
+            "author": "Kenneth Rosen",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780073383095-M.jpg?default=false",
+            "id": "B149",
+            "pages": 1072,
+            "qty": 6,
+            "title": "Discrete Mathematics and Its Applications"
+        },
+        {
+            "author": "B.S. Grewal",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9788193328491-M.jpg?default=false",
+            "id": "B150",
+            "pages": 1320,
+            "qty": 10,
+            "title": "Higher Engineering Mathematics"
+        },
+        {
+            "author": "Sheldon Axler",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9783319110790-M.jpg?default=false",
+            "id": "B151",
+            "pages": 340,
+            "qty": 4,
+            "title": "Linear Algebra Done Right"
+        },
+        {
+            "author": "Brian Kernighan",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780131103627-M.jpg?default=false",
+            "id": "B152",
+            "pages": 272,
+            "qty": 9,
+            "title": "The C Programming Language"
+        },
+        {
+            "author": "Eric Matthes",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781593279288-M.jpg?default=false",
+            "id": "B153",
+            "pages": 544,
+            "qty": 7,
+            "title": "Python Crash Course"
+        },
+        {
+            "author": "Luciano Ramalho",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781491946008-M.jpg?default=false",
+            "id": "B154",
+            "pages": 792,
+            "qty": 4,
+            "title": "Fluent Python"
+        },
+        {
+            "author": "Harold Abelson",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780262510875-M.jpg?default=false",
+            "id": "B155",
+            "pages": 657,
+            "qty": 3,
+            "title": "Structure and Interpretation of Computer Programs"
+        },
+        {
+            "author": "David Patterson",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780124077263-M.jpg?default=false",
+            "id": "B156",
+            "pages": 800,
+            "qty": 5,
+            "title": "Computer Organization and Design"
+        },
+        {
+            "author": "Alfred Aho",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780321486813-M.jpg?default=false",
+            "id": "B157",
+            "pages": 1009,
+            "qty": 3,
+            "title": "Compilers: Principles Techniques and Tools"
+        },
+        {
+            "author": "Michael Sipser",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781133187790-M.jpg?default=false",
+            "id": "B158",
+            "pages": 504,
+            "qty": 4,
+            "title": "Introduction to the Theory of Computation"
+        },
+        {
+            "author": "Erich Gamma",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780201633610-M.jpg?default=false",
+            "id": "B159",
+            "pages": 395,
+            "qty": 5,
+            "title": "Design Patterns"
+        },
+        {
+            "author": "Andrew Hunt",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780135957059-M.jpg?default=false",
+            "id": "B160",
+            "pages": 352,
+            "qty": 6,
+            "title": "The Pragmatic Programmer"
+        },
+        {
+            "author": "Gayle Laakmann McDowell",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780984782857-M.jpg?default=false",
+            "id": "B161",
+            "pages": 708,
+            "qty": 8,
+            "title": "Cracking the Coding Interview"
+        },
+        {
+            "author": "Alex Xu",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781736049112-M.jpg?default=false",
+            "id": "B162",
+            "pages": 322,
+            "qty": 5,
+            "title": "System Design Interview"
+        },
+        {
+            "author": "Jon Duckett",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781118008188-M.jpg?default=false",
+            "id": "B163",
+            "pages": 490,
+            "qty": 6,
+            "title": "HTML and CSS: Design and Build Websites"
+        },
+        {
+            "author": "Marijn Haverbeke",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781593279509-M.jpg?default=false",
+            "id": "B164",
+            "pages": 472,
+            "qty": 5,
+            "title": "Eloquent JavaScript"
+        },
+        {
+            "author": "Halliday & Resnick",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781118230718-M.jpg?default=false",
+            "id": "B165",
+            "pages": 1448,
+            "qty": 7,
+            "title": "Fundamentals of Physics"
+        },
+        {
+            "author": "H.C. Verma",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9788177091878-M.jpg?default=false",
+            "id": "B166",
+            "pages": 462,
+            "qty": 9,
+            "title": "Concepts of Physics Vol 1"
+        },
+        {
+            "author": "David J. Griffiths",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781108420419-M.jpg?default=false",
+            "id": "B167",
+            "pages": 620,
+            "qty": 4,
+            "title": "Introduction to Electrodynamics"
+        },
+        {
+            "author": "R.C. Hibbeler",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780133918922-M.jpg?default=false",
+            "id": "B168",
+            "pages": 672,
+            "qty": 5,
+            "title": "Engineering Mechanics: Statics"
+        },
+        {
+            "author": "Yunus Cengel",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780073398174-M.jpg?default=false",
+            "id": "B169",
+            "pages": 1024,
+            "qty": 4,
+            "title": "Thermodynamics: An Engineering Approach"
+        },
+        {
+            "author": "Steven Bird",
+            "category": "Academic",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780596516499-M.jpg?default=false",
+            "id": "B170",
+            "pages": 504,
+            "qty": 5,
+            "title": "Natural Language Processing with Python"
+        },
+        {
+            "author": "James Clear",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg?default=false",
+            "id": "B171",
+            "pages": 320,
+            "qty": 6,
+            "title": "Atomic Habits"
+        },
+        {
+            "author": "Hector Garcia",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780143130727-M.jpg?default=false",
+            "id": "B172",
+            "pages": 208,
+            "qty": 5,
+            "title": "Ikigai"
+        },
+        {
+            "author": "Austin Kleon",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781523506644-M.jpg?default=false",
+            "id": "B173",
+            "pages": 224,
+            "qty": 4,
+            "title": "Keep Going"
+        },
+        {
+            "author": "Sarah Harvey",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781529005349-M.jpg?default=false",
+            "id": "B174",
+            "pages": 240,
+            "qty": 4,
+            "title": "Kaizen: The Japanese Method"
+        },
+        {
+            "author": "Cal Newport",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781455586691-M.jpg?default=false",
+            "id": "B175",
+            "pages": 296,
+            "qty": 5,
+            "title": "Deep Work"
+        },
+        {
+            "author": "Morgan Housel",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780857197689-M.jpg?default=false",
+            "id": "B176",
+            "pages": 256,
+            "qty": 7,
+            "title": "The Psychology of Money"
+        },
+        {
+            "author": "Robert Kiyosaki",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781612680194-M.jpg?default=false",
+            "id": "B177",
+            "pages": 336,
+            "qty": 8,
+            "title": "Rich Dad Poor Dad"
+        },
+        {
+            "author": "Napoleon Hill",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781585424337-M.jpg?default=false",
+            "id": "B178",
+            "pages": 320,
+            "qty": 6,
+            "title": "Think and Grow Rich"
+        },
+        {
+            "author": "Stephen R. Covey",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781982137274-M.jpg?default=false",
+            "id": "B179",
+            "pages": 432,
+            "qty": 5,
+            "title": "The 7 Habits of Highly Effective People"
+        },
+        {
+            "author": "Dale Carnegie",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780671027032-M.jpg?default=false",
+            "id": "B180",
+            "pages": 291,
+            "qty": 7,
+            "title": "How to Win Friends and Influence People"
+        },
+        {
+            "author": "Charles Duhigg",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780812981605-M.jpg?default=false",
+            "id": "B181",
+            "pages": 371,
+            "qty": 4,
+            "title": "The Power of Habit"
+        },
+        {
+            "author": "Mark Manson",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780062457714-M.jpg?default=false",
+            "id": "B182",
+            "pages": 224,
+            "qty": 5,
+            "title": "The Subtle Art of Not Giving a F*ck"
+        },
+        {
+            "author": "Viktor E. Frankl",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780807014295-M.jpg?default=false",
+            "id": "B183",
+            "pages": 184,
+            "qty": 6,
+            "title": "Man's Search for Meaning"
+        },
+        {
+            "author": "Eckhart Tolle",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781577314806-M.jpg?default=false",
+            "id": "B184",
+            "pages": 236,
+            "qty": 4,
+            "title": "The Power of Now"
+        },
+        {
+            "author": "Robin Sharma",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780062515674-M.jpg?default=false",
+            "id": "B185",
+            "pages": 198,
+            "qty": 6,
+            "title": "The Monk Who Sold His Ferrari"
+        },
+        {
+            "author": "Robin Sharma",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781443456623-M.jpg?default=false",
+            "id": "B186",
+            "pages": 336,
+            "qty": 5,
+            "title": "The 5 AM Club"
+        },
+        {
+            "author": "David Goggins",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781544512280-M.jpg?default=false",
+            "id": "B187",
+            "pages": 364,
+            "qty": 4,
+            "title": "Can't Hurt Me"
+        },
+        {
+            "author": "Angela Duckworth",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781501111105-M.jpg?default=false",
+            "id": "B188",
+            "pages": 352,
+            "qty": 4,
+            "title": "Grit: Passion and Perseverance"
+        },
+        {
+            "author": "Carol S. Dweck",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780345472328-M.jpg?default=false",
+            "id": "B189",
+            "pages": 320,
+            "qty": 5,
+            "title": "Mindset: The New Psychology of Success"
+        },
+        {
+            "author": "Daniel Kahneman",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780374533557-M.jpg?default=false",
+            "id": "B190",
+            "pages": 499,
+            "qty": 4,
+            "title": "Thinking Fast and Slow"
+        },
+        {
+            "author": "Malcolm Gladwell",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780316017930-M.jpg?default=false",
+            "id": "B191",
+            "pages": 309,
+            "qty": 5,
+            "title": "Outliers"
+        },
+        {
+            "author": "Simon Sinek",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781591846444-M.jpg?default=false",
+            "id": "B192",
+            "pages": 256,
+            "qty": 5,
+            "title": "Start with Why"
+        },
+        {
+            "author": "Don Miguel Ruiz",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781878424310-M.jpg?default=false",
+            "id": "B193",
+            "pages": 160,
+            "qty": 6,
+            "title": "The Four Agreements"
+        },
+        {
+            "author": "Brian Tracy",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781626569416-M.jpg?default=false",
+            "id": "B194",
+            "pages": 144,
+            "qty": 5,
+            "title": "Eat That Frog!"
+        },
+        {
+            "author": "Greg McKeown",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780804137386-M.jpg?default=false",
+            "id": "B195",
+            "pages": 272,
+            "qty": 4,
+            "title": "Essentialism"
+        },
+        {
+            "author": "Austin Kleon",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780761169253-M.jpg?default=false",
+            "id": "B196",
+            "pages": 160,
+            "qty": 5,
+            "title": "Steal Like an Artist"
+        },
+        {
+            "author": "David J. Schwartz",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780671646783-M.jpg?default=false",
+            "id": "B197",
+            "pages": 320,
+            "qty": 4,
+            "title": "The Magic of Thinking Big"
+        },
+        {
+            "author": "Jay Shetty",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781982134488-M.jpg?default=false",
+            "id": "B198",
+            "pages": 352,
+            "qty": 6,
+            "title": "Think Like a Monk"
+        },
+        {
+            "author": "A.P.J. Abdul Kalam",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9788173711466-M.jpg?default=false",
+            "id": "B199",
+            "pages": 180,
+            "qty": 9,
+            "title": "Wings of Fire"
+        },
+        {
+            "author": "Shiv Khera",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9789382951711-M.jpg?default=false",
+            "id": "B200",
+            "pages": 314,
+            "qty": 6,
+            "title": "You Can Win"
+        },
+        {
+            "author": "Hal Elrod",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9780979019715-M.jpg?default=false",
+            "id": "B201",
+            "pages": 172,
+            "qty": 4,
+            "title": "The Miracle Morning"
+        },
+        {
+            "author": "Ryan Holiday",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781591847816-M.jpg?default=false",
+            "id": "B202",
+            "pages": 256,
+            "qty": 4,
+            "title": "Ego Is the Enemy"
+        },
+        {
+            "author": "Ryan Holiday",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781591846352-M.jpg?default=false",
+            "id": "B203",
+            "pages": 224,
+            "qty": 5,
+            "title": "The Obstacle Is the Way"
+        },
+        {
+            "author": "William H. McRaven",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781455570249-M.jpg?default=false",
+            "id": "B204",
+            "pages": 144,
+            "qty": 5,
+            "title": "Make Your Bed"
+        },
+        {
+            "author": "Cal Newport",
+            "category": "Self-Help",
+            "cover": "https://covers.openlibrary.org/b/isbn/9781455509126-M.jpg?default=false",
+            "id": "B205",
+            "pages": 288,
+            "qty": 4,
+            "title": "So Good They Can't Ignore You"
+        }
+    ],
+    "studentsData": [
+        {
+            "branch": "CST",
+            "id": "BTAM26O623",
+            "name": "sahaj"
+        },
+        {
+            "branch": "AIML",
+            "id": "BTAM26O1028",
+            "name": "gungun jain"
+        },
+        {
+            "branch": "AIDS",
+            "id": "BTAD25O1015",
+            "name": "arya soni"
+        },
+        {
+            "branch": "AIML",
+            "id": "S01",
+            "name": "Aarav Sharma"
+        },
+        {
+            "branch": "CSE",
+            "id": "S02",
+            "name": "Priya Verma"
+        }
+    ],
+    "recordsData": [
+        {
+            "bookId": "B206",
+            "dueDate": "2026-12-02",
+            "id": 1795591542183,
+            "issueDate": "2026-11-25",
+            "status": "Issued",
+            "studentId": "BTAM26O1028"
+        },
+        {
+            "bookId": "B101",
+            "dueDate": "2026-12-02",
+            "id": 1795591212794,
+            "issueDate": "2026-11-25",
+            "status": "Issued",
+            "studentId": "BTAD25O1015"
+        },
+        {
+            "bookId": "B101",
+            "dueDate": "2026-11-22",
+            "id": 1,
+            "issueDate": "2026-11-15",
+            "status": "Issued",
+            "studentId": "S01"
+        }
+    ],
+    "reservationsData": [
+        {
+            "bookId": "B137",
+            "date": "11/25/2026",
+            "studentId": "GUNGUN JAIN",
+            "title": "Introduction to Algorithms"
+        }
+    ],
+    "suggestionsData": [
+        {
+            "author": "khaled hosseini",
+            "by": "arya soni",
+            "category": "Novels",
+            "id": 1795598955513,
+            "status": "Approved",
+            "title": "the thousand splendid suns"
+        },
+        {
+            "author": "collen hover",
+            "by": "arya soni",
+            "category": "Novels",
+            "id": 1795591467692,
+            "status": "Approved",
+            "title": "verity"
+        },
+        {
+            "author": "Martin Fowler",
+            "by": "Aarav (S01)",
+            "category": "Academic",
+            "id": 101,
+            "status": "Rejected",
+            "title": "Refactoring"
+        },
+        {
+            "author": "Khaled Hosseini",
+            "by": "Library Admin",
+            "category": "Novels",
+            "id": 102,
+            "status": "Approved",
+            "title": "The Kite Runner"
+        }
+    ],
+    "seatsData": [
+        {
+            "bookedBy": null,
+            "id": "SZ-01",
+            "zone": "Silent Zone"
+        },
+        {
+            "bookedBy": null,
+            "id": "SZ-02",
+            "zone": "Silent Zone"
+        },
+        {
+            "bookedBy": null,
+            "id": "SZ-03",
+            "zone": "Silent Zone"
+        },
+        {
+            "bookedBy": null,
+            "id": "SZ-04",
+            "zone": "Silent Zone"
+        },
+        {
+            "bookedBy": null,
+            "id": "SZ-05",
+            "zone": "Silent Zone"
+        },
+        {
+            "bookedBy": null,
+            "id": "SZ-06",
+            "zone": "Silent Zone"
+        },
+        {
+            "bookedBy": null,
+            "id": "GD-01",
+            "zone": "Group Pod"
+        },
+        {
+            "bookedBy": null,
+            "id": "GD-02",
+            "zone": "Group Pod"
+        }
+    ]
+}

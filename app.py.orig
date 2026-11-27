@@ -1,0 +1,116 @@
+from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
+import json
+import os
+
+app = Flask(__name__)
+CORS(app)
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_FILE = os.path.join(DATA_DIR, "library_data.json")
+
+os.makedirs(DATA_DIR, exist_ok=True)
+
+def load_data():
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+def save_data(data):
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
+
+@app.route("/")
+def serve_frontend():
+    return send_from_directory(FRONTEND_DIR, "index.html")
+
+@app.route("/api/data", methods=["GET"])
+def get_all_data():
+    data = load_data()
+    if data is None:
+        return jsonify({"initialized": False}), 200
+    return jsonify({"initialized": True, "data": data}), 200
+
+@app.route("/api/save", methods=["POST"])
+def save_all_data():
+    payload = request.get_json()
+    if not payload:
+        return jsonify({"error": "No data received"}), 400
+    seen = set()
+    for b in payload.get("booksData", []):
+        isbn = (b.get("isbn") or "").strip()
+        if isbn:
+            if isbn in seen:
+                return jsonify({"error": "Duplicate ISBN: " + isbn}), 400
+            seen.add(isbn)
+    save_data(payload)
+    return jsonify({"status": "saved"}), 200
+
+import socket
+
+@app.route("/api/server-ip")
+def get_server_ip():
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+        s.close()
+    except Exception:
+        ip = "127.0.0.1"
+    return jsonify({"url": f"http://{ip}:5000/#register-student"})
+import time
+from datetime import datetime
+from flask import request, jsonify
+
+COMPLAINTS = []  # Sirf memory mein rahega, permanent save nahi hoga
+
+@app.route("/api/complaints", methods=["GET", "POST"])
+def handle_complaints():
+    now = time.time()
+    # Jin complaints ka time poora ho gaya, unhe apne-aap hata do
+    COMPLAINTS[:] = [c for c in COMPLAINTS if not c.get("expire_at") or c["expire_at"] > now]
+
+    if request.method == "GET":
+        return jsonify(COMPLAINTS)
+
+    data = request.json or {}
+    new_item = {
+        "id": int(now * 1000),
+        "student": data.get("student", "Student"),
+        "category": data.get("category", "Other"),
+        "location": data.get("location", ""),
+        "details": data.get("details", ""),
+        "status": "Pending",
+        "eta": "",
+        "admin_note": "",
+        "reaction": "",
+        "expire_at": None,
+        "created_at": datetime.now().strftime("%d %b, %I:%M %p")
+    }
+    COMPLAINTS.insert(0, new_item)
+    return jsonify(new_item), 201
+
+@app.route("/api/complaints/<int:cid>", methods=["PUT"])
+def update_complaint(cid):
+    data = request.json or {}
+    for item in COMPLAINTS:
+        if item["id"] == cid:
+            if "status" in data:
+                item["status"] = data["status"]
+            if "eta" in data:
+                item["eta"] = data["eta"]
+            if "admin_note" in data:
+                item["admin_note"] = data["admin_note"]
+            if item["status"] == "Resolved" and not item.get("resolved_at"):
+                item["resolved_at"] = datetime.now().strftime("%d %b, %I:%M %p")
+            if data.get("reaction"):
+                item["reaction"] = data["reaction"]
+                # Reaction milne ke 15 second baad apne-aap hat jayega
+                item["expire_at"] = time.time() + 15
+            return jsonify(item)
+    return jsonify({"error": "Not found"}), 404
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
